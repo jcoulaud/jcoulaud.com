@@ -59,7 +59,6 @@ const renderJsonObject = (obj: JsonObject, indentLevel = 1): JSX.Element => {
       {index !== array.length - 1 ? ',' : ''}
     </div>
   ));
-
   return <div>{entries}</div>;
 };
 
@@ -70,10 +69,10 @@ const renderJsonObject = (obj: JsonObject, indentLevel = 1): JSX.Element => {
 const ME: JsonObject = {
   firstName: 'Julien',
   lastName: 'Coulaud',
-  email: 'hello',
+  email: 'hello@thisDomain',
   job: {
     role: 'Senior Full Stack Engineer',
-    company: 'Solcial',
+    company: 'MoonPay',
   },
   life: {
     sideProject: 'https://recapbot.xyz',
