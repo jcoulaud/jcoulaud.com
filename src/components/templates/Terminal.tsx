@@ -70,12 +70,4 @@ const ME: JsonObject = {
   firstName: 'Julien',
   lastName: 'Coulaud',
   email: 'hello@thisDomain',
-  job: {
-    role: 'Senior Full Stack Engineer',
-    company: 'MoonPay',
-  },
-  life: {
-    sideProject: 'https://recapbot.xyz',
-    sport: 'Tennis',
-  },
 };
